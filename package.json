@@ -38,6 +38,10 @@
   "nyc": {
     "extends": "@istanbuljs/nyc-config-typescript",
     "check-coverage": true,
+    "branches": "&gt;10",
+    "lines": "&gt;10",
+    "functions": "&gt;10",
+    "statements": "&gt;10",
     "all": true,
     "include": [
       "src/**/!(*.test.*).[tj]s?(x)"
