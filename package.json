@@ -47,10 +47,7 @@
       "src/libs/**/*.*"
     ],
     "reporter": [
-      "html",
-      "lcov",
-      "text",
-      "text-summary"
+      "lcov"
     ],
     "report-dir": "coverage"
   },
